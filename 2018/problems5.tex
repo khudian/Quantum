@@ -1,0 +1,186 @@
+\magnification=1200
+\baselineskip=14pt
+\def\vare {\varepsilon}
+\def\A {{\bf A}}
+\def\t {\tilde}
+\def\a {\alpha}
+\def\K {{\bf K}}
+\def\N {{\bf N}}
+\def\V {{\cal V}}
+\def\s {{\sigma}}
+\def\S {{\Sigma}}
+\def\s {{\sigma}}
+\def\p{\partial}
+\def\vare{{\varepsilon}}
+\def\Q {{\bf Q}}
+\def\D {{\cal D}}
+\def\G {{\Gamma}}
+\def\C {{\bf C}}
+\def\M {{\cal M}}
+\def\Z {{\bf Z}}
+\def\U  {{\cal U}}
+\def\H {{\cal H}}
+\def\R  {{\bf R}}
+\def\S  {{\bf S}}
+\def\E  {{\bf E}}
+\def\l {\lambda}
+\def\ll {{\bf l}}
+\def\degree {{\bf {\rm degree}\,\,}}
+\def \finish {${\,\,\vrule height1mm depth2mm width 8pt}$}
+\def \m {\medskip}
+\def\p {\partial}
+\def\r {{\bf r}}
+\def\pt {{\bf p}}
+\def\v {{\bf v}}
+\def\n {{\bf n}}
+\def\t {{\bf t}}
+\def\b {{\bf b}}
+\def\c {{\bf c }}
+\def\e{{\bf e}}
+\def\ac {{\bf a}}
+\def \X   {{\bf X}}
+\def \Y   {{\bf Y}}
+\def \x   {{\bf x}}
+\def \y   {{\bf y}}
+\def \z   {{\bf z}}
+\def \G{{\cal G}}
+\def\w {{\omega}}
+\def \Tr  {{\rm Tr\,}}
+\def\V {{\cal V}}
+% I began this file in Novmber  2018
+
+
+\centerline {\bf Quantum mechanics. Problems 5.}
+
+\m
+
+
+{\bf 1}   
+
+\centerline {\tt Coordinate and Momentum representation}
+           $$
+\Psi(\r)={1\over (2\pi \hbar)^{3\over 2}}
+          \int \Phi({\bf p})e^{{i\over \hbar}{\bf p}\r}d^3r\,,
+\qquad
+\Phi({\bf p})={1\over (2\pi \hbar)^{3\over 2}}
+          \int \Psi(\r)e^{-{i\over \hbar}{\bf p}\r}d^3p\,.
+           \eqno (1)
+           $$
+
+If the vector ${\bf x}$  defines a state of quantum mechanical
+system, then $\x=\Psi(r)$  is the representation of this state
+in coordinates, and
+   $|\Psi(\r_0)|^2$ says  about a probability to find a particle
+in the vicinity of the point $\r_0$; respectively
+If $\x=\Phi(p)$ is the representation of this state
+in momenta, and 
+   $|\Phi({\bf p}_0)|^2$ `says'  about a probability that momentum of the
+particle
+is the vicinity of the $\bf p_0$.
+
+
+{a)}    Check that formulae (1) are well defined, in particularly check that
+double Fourier transform in equation (1) is the identity operation.
+
+  {\it Hint:  you may use the formula that
+                    $\int_{-\infty}^{\infty} e^{ikx}dk=2\pi \delta(x)$.}
+
+ 
+             $$
+\Psi\rightarrow \Phi\rightarrow \Psi
+             $$
+
+
+
+
+{b)} Find momentum representation  for wave function
+$\Psi(x)=\delta(x-x_0)+\delta (x-x_1)$.
+
+   Explain why average momentum of this state vanishes.
+
+
+
+
+c) Find momentum representatin for the wave function
+ $\Psi (x)=\cases {
+          1\quad \hbox {for $0<x<a$}\cr 
+          0 \quad\hbox {for $x\not\in (0,a)$}\cr 
+                      }$
+
+
+
+
+\m
+
+
+{\bf 2}  
+
+a) Calculate 
+         $$
+e^{{i\over \hbar}\hat p_x}   e^{-(x-x_0)^2}\,.
+          $$
+
+
+b) You can see the following exercise in Quantum Mechanics:
+
+  {\tt Show that}
+            $$
+e^{{i\over \hbar}\hat p_x}   \Psi(x)=\Psi(x+1)
+                 $$ 
+
+
+
+Is this statement correct  ({\tt for an arbitrary smooth function})?
+
+\m
+
+
+
+
+{\bf 3}  
+
+a) Let  $A$ be an antisymmetric  matrix.  Show that
+   $e^{A}$ is an orthogonal  matrix.
+
+\m
+
+
+b) Calculate the mtrix $e^{t\pmatrix {0 & 1\cr -1 & 0\cr}}$.
+
+
+\m
+
+c) Let  $B$ be hermitian matrix.  Show that
+   $e^{iB}$ is unitary matrix.
+
+\m
+
+d) Calculate the matrix $e^{i\varphi\pmatrix {0 & 1\cr -1 & 0\cr}}$.
+
+
+
+\m
+
+
+{\bf 4}   At the moment $t=0$, the wave function of the free particle
+is
+       $$
+\Psi(x)=e^{-(x-x_0)^2\over 2a^2}
+       $$
+How look this wave function at the moment 
+$t=t_0$?
+
+\m
+
+{\bf 5}
+
+a) Find stationary states of the particle in the infinite potential
+well of the width $a$.
+
+
+b)   Find the momeuntum representation of the state
+with minimum energy.
+
+c) Calculate the average momentum of the arbitrary stationary state.
+
+\bye

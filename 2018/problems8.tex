@@ -1,0 +1,165 @@
+\magnification=1200
+\baselineskip=14pt
+\def\vare {\varepsilon}
+\def\A {{\bf A}}
+\def\t {\tilde}
+\def\a {\alpha}
+\def\K {{\bf K}}
+\def\N {{\bf N}}
+\def\V {{\cal V}}
+\def\s {{\sigma}}
+\def\S {{\Sigma}}
+\def\s {{\sigma}}
+\def\p{\partial}
+\def\vare{{\varepsilon}}
+\def\Q {{\bf Q}}
+\def\D {{\cal D}}
+\def\G {{\Gamma}}
+\def\C {{\bf C}}
+\def\M {{\cal M}}
+\def\Z {{\bf Z}}
+\def\U  {{\cal U}}
+\def\H {{\cal H}}
+\def\R  {{\bf R}}
+\def\S  {{\bf S}}
+\def\E  {{\bf E}}
+\def\l {\lambda}
+\def\ll {{\bf l}}
+\def\degree {{\bf {\rm degree}\,\,}}
+\def \finish {${\,\,\vrule height1mm depth2mm width 8pt}$}
+\def \m {\medskip}
+\def\p {\partial}
+\def\r {{\bf r}}
+\def\pt {{\bf p}}
+\def\v {{\bf v}}
+\def\n {{\bf n}}
+\def\t {{\bf t}}
+\def\b {{\bf b}}
+\def\c {{\bf c }}
+\def\e{{\bf e}}
+\def\ac {{\bf a}}
+\def \X   {{\bf X}}
+\def \Y   {{\bf Y}}
+\def \x   {{\bf x}}
+\def \y   {{\bf y}}
+\def \z   {{\bf z}}
+\def \G{{\cal G}}
+\def\w {{\omega}}
+\def \Tr  {{\rm Tr\,}}
+\def\V {{\cal V}}
+\def\H {{\cal H}}
+% I began this file in 2-nd December  2018
+
+
+\centerline {\bf Quantum mechanics. Problems 8.}
+
+\centerline {\tt Angular momentum}
+
+
+ Let
+            $$
+ A_m=\{\hbox{space of polynomials of order $m$}\}\,,
+ A_m\ni P=\sum P_{i_1i_2\dots i_m}x^{i_1}x^{i_2}\dots x^{i_m},\,\,
+     i_k=1,2,3\,,
+             $$
+and
+         $H_m$ be subspace of harmonic (traceless) polynomials in $A_m$:
+                   $$
+H_m=\{P\colon \,\, P\in A_m\,, \Delta P=0\}\,,
+                   $$
+i.e.
+             $$
+A_m\ni P=\sum P_{i_1i_2\dots i_m}x^{i_1}x^{i_2}\dots x^{i_m}\colon\,\,
+      \Delta P=\sum_m{\p P(x,y,z)\over \p x^m \p x^m}=
+P_{mmi_3i_4\dots i_k}=0,.
+             $$
+We have that 
+$2m+1$-dimenisonal space $H_m$ is irreducible representation of the group
+  $SO(3)$. 
+
+
+      \bigskip
+
+     {\bf 1}  In the case if wave function is equal to
+
+a) 
+                    $$
+\Psi=\Psi(\r)=F(r)(ax+by+cz)
+                    $$ 
+b)
+
+                    $$
+\Psi=\Psi(\r)=F(r)(x^2+y^2+\vare z^2)\,, (\vare=\pm 1)
+                    $$ 
+
+                    $$
+\Psi=\Psi(\r)=F(r)(x^3+y^3)\,,
+                    $$ 
+where $F(r)$ is the function of $r=\sqrt {x^2+y^2+z^2}$
+be wave function of the particle.
+
+Calculate angular momentum and the projection of angular momentum
+on the axis $z$.
+
+Calculate the action of operator $\hat {L^2}$ on the wave function
+
+\m
+ 
+{\bf 2}  Show that arbitrary wave function  $\Psi(r)$ can be represented
+in the following way
+              $$
+    \Psi(\r)=
+   A^{(0)}(r)+
+   A^{(1)}_i(r)x^i+
+   A^{(2)}_{ik}(r)x^ix^k+
+   A^{(3)}_{ikm}(r)x^ix^kx^m+\dots\,,
+             $$       
+where $A^{(m)}_{i_1\dots i_m}$ is symmetric traceless tensor.
+
+    What is the meaning of this expansion.
+
+
+\m
+
+{\bf 3}   Perform the expansion descirbed in the previous
+problem for the function 
+$\Psi(\r)=x^3$.     What is the meaning of this expansion
+  
+\m
+
+
+
+{\bf 4}   a) 
+Calculate explicitly the operator
+                         $$
+ \hat L^2=
+ \hat L^2_x+
+ \hat L^2_y+
+ \hat L^2_z
+                         $$
+in Cartesian coordinates.
+
+b) Show that
+              $$
+ \hat L^2=-r^2\Delta-\hat E^2-\hat E\,,
+              $$
+where
+            $$
+\hat E=x\p_x+y\p_y+z\p_z
+            $$
+is Euler operator
+
+c) Show that for arbitrary $P\in H_m$
+
+         $$
+   \hat L^2 P=m(m+1) P\,.
+         $$
+
+d) Show that for arbitrary $P\in H_m$ and arbitrary function
+   $F=F(r)$
+         $$
+   \hat L^2 \Psi P=m(m+1) \Psi\,,\,\, {\rm if}\,\, \Psi=F(r)P\,.
+         $$
+
+ 
+\bye       

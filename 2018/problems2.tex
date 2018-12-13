@@ -1,0 +1,198 @@
+\magnification=1200
+\baselineskip=14pt
+\def\vare {\varepsilon}
+\def\A {{\bf A}}
+\def\t {\tilde}
+\def\a {\alpha}
+\def\K {{\bf K}}
+\def\N {{\bf N}}
+\def\V {{\cal V}}
+\def\s {{\sigma}}
+\def\S {{\Sigma}}
+\def\s {{\sigma}}
+\def\p{\partial}
+\def\vare{{\varepsilon}}
+\def\Q {{\bf Q}}
+\def\D {{\cal D}}
+\def\G {{\Gamma}}
+\def\C {{\bf C}}
+\def\M {{\cal M}}
+\def\Z {{\bf Z}}
+\def\U  {{\cal U}}
+\def\H {{\cal H}}
+\def\R  {{\bf R}}
+\def\S  {{\bf S}}
+\def\E  {{\bf E}}
+\def\l {\lambda}
+\def\ll {{\bf l}}
+\def\degree {{\bf {\rm degree}\,\,}}
+\def \finish {${\,\,\vrule height1mm depth2mm width 8pt}$}
+\def \m {\medskip}
+\def\p {\partial}
+\def\r {{\bf r}}
+\def\pt {{\bf p}}
+\def\v {{\bf v}}
+\def\n {{\bf n}}
+\def\t {{\bf t}}
+\def\b {{\bf b}}
+\def\c {{\bf c }}
+\def\e{{\bf e}}
+\def\ac {{\bf a}}
+\def \X   {{\bf X}}
+\def \Y   {{\bf Y}}
+\def \x   {{\bf x}}
+\def \y   {{\bf y}}
+\def \z   {{\bf z}}
+\def \G{{\cal G}}
+\def\w {{\omega}}
+\def \Tr  {{\rm Tr\,}}
+\def\V {{\cal V}}
+% I began this file in September  2018
+
+
+\centerline {\bf Quantum mechanics. Problems 2.}
+
+
+{\it 
+          If  $\Psi \in\H$  is a state and $A$ is observable, then
+the average value $\overline A =\left(\overline A\right)_\Psi$
+of the observable (self-adjoint operator in $\cal H$)
+                $$
+      \left(\overline A\right)_\Psi=
+                    {
+            \langle\Psi,\hat A\Psi\rangle
+                \over
+       \langle\Psi,\Psi\rangle
+                 }\,.
+          \eqno (1)
+                $$
+In the case if we measure 
+the averages of projection of the spin,
+observables
+ $s_x,s_y$ or $s_z$,  we may consider that the Hilbert 
+vector space of
+the states is $\C^2$:
+            $$
+\Psi=\pmatrix {a\cr b\cr}=a\uparrow+ b\downarrow\,,\quad a,b\in C\,,
+           \eqno (2)
+            $$
+        
+with the scalar product
+$$
+\langle\Psi,\Phi\rangle=
+\left\langle \pmatrix {a\cr b\cr}\,,
+\pmatrix {a'\cr b'\cr},
+\right\rangle=a^*a'+b^*b'\,,
+       $$
+and observables are
+           $$
+s_x={1\over 2}\sigma_x={1\over 2}\pmatrix {0 & 1\cr 1 & 0\cr}\,,\quad
+s_y={1\over 2}\sigma_y={1\over 2}\pmatrix {0 & -i\cr i & 0\cr}\,,\quad
+s_z={1\over 2}\sigma_z={1\over 2}\pmatrix{1 & 0\cr 0 & -1\cr}\,,
+        \eqno (3)
+           $$ 
+$\sigma_i$ are Pauli matrices,
+  $[\sigma_k,\sigma_m]=i\vare_{kmn}\sigma_n$,
+\footnote {$^*$}{$i\sigma_k$ is a natural basis 
+in the Lie algebra $so(3)$}.
+
+For example the average value of spin's $x$-component 
+at the state $\Psi=\pmatrix {a\cr b\cr}$ is equal to
+       $$
+\overline {s_x}=      {
+            \langle\Psi,s_x\Psi\rangle
+                \over
+       \langle\Psi,\Psi\rangle
+                 }
+      = {
+            \langle\pmatrix {a\cr b\cr },{1\over 2}
+               \pmatrix {0 & 1\cr 1 & 0\cr }
+         \pmatrix {a\cr b\cr}
+               \rangle
+                \over
+             \langle\pmatrix {a\cr b\cr },
+         \pmatrix {a\cr b\cr}
+               \rangle
+                 }={a^*b+b^*a\over a^*a+b^*b}\,.
+         \eqno (4)
+       $$
+}  
+
+
+{\bf 1}i.   Find eigenfunctions of operators $s_x,s_y,s_z$.
+
+\m
+
+{\bf 2}.  Let $\Psi$ be a state such that
+            $$
+\Psi=c_{+}\uparrow_y
++c_{-}\downarrow_y\,,
+            $$
+where $\uparrow$ is eigenvector of  observable $s_y$ with eigenvalue
+  $+{1\over 2}$, 
+and $\downarrow$ is eigenvector of  observable $s_y$ with eigenvalue
+  $-{1\over 2}$.  Show that
+           $$
+\overline {s_y}=
+    {
+{1\over 2}|c_+|^2
+      -
+{1\over 2}|c_-|^2
+       \over 
+|c_+|^2
+      +
+|c_-|^2
+     }
+           $$
+
+
+\m
+
+
+{\bf 3}.
+Does there exist a state $\Psi$ such that for this state
+$s_x$ and $s_y$ components of spin are exactly defined, i.e.
+  the vector $\Psi\not=0$ is an eigenvector of two operators
+$s_x$ and $s_y$ simultaneously?
+
+   \m 
+
+
+{\bf 4}
+Consider a map
+        $$
+{\bf R}^2 \quad 
+ {\buildrel f_1\over \rightarrow}
+\quad {\bf C}\quad
+{\buildrel f_2\over \rightarrow}\quad
+         {\bf C}^2
+\quad
+ {\buildrel f\over \rightarrow}\quad
+        S^2
+           \eqno (4.1)
+         $$
+ such that $f_1$ is natural identification of the plane
+$\R^2$ 
+with the complex line  $\bf C$:
+   $f_1(u,v)=u+iv$,    $f_2$ maps the complex number
+   $z=u+iv$ into the spinor $\Psi=\pmatrix {z\cr 1\cr}$,
+and the map $f_3$ maps, the spinor 
+   $\Psi=\pmatrix {z\cr 1\cr}=\pmatrix {u+iv\cr 1\cr}$
+into the point on $\S^2$ defined by the vector
+               $$
+{\bf s}=\left\{
+   \overline {s_x}\,,
+   \overline {s_y}\,,
+   \overline {s_z}
+        \right\}\,.
+               $$
+ Show that this map from $\R^2$ into the sphere is
+the stereographic projection
+\footnote{$^{**}$}
+{{\bf Remark}  the map (4.1) in fact shows that
+  $CP=S^2$ as homogeneous spaces:
+   more presicely: group  $SU(2)$ acts on $\C P$,
+and group $SO(3)$ on $S^2$, and the map (1.4)
+intertwins the actions of these groups.
+}.
+\bye

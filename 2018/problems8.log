@@ -1,0 +1,37 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdftex 2017.1.17)  10 DEC 2018 09:06
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**problems8.tex
+(./problems8.tex
+Overfull \hbox (9.07602pt too wide) detected at line 64
+\teni A[] \tenrm = \tensy f[]g \teni ; A[] \tensy 3 \teni P \tenrm = [] \teni P
+[]x[]x[] [] x[];   i[] \tenrm = 1\teni ; \tenrm 2\teni ; \tenrm 3 \teni ;|
+
+\hbox(10.50006+5.50006)x391.46176
+.\teni A
+.\hbox(3.01389+0.0)x7.59612, shifted 1.49998
+..\seveni m
+.\glue(\thickmuskip) 2.77771 plus 2.77771
+.\tenrm =
+.\glue(\thickmuskip) 2.77771 plus 2.77771
+.etc.
+
+[1{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] )</usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.p
+fb>
+Output written on problems8.pdf (2 pages, 104095 bytes).
+PDF statistics:
+ 51 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

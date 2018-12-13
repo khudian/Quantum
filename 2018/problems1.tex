@@ -1,0 +1,166 @@
+\magnification=1200
+\baselineskip=14pt
+\def\vare {\varepsilon}
+\def\A {{\bf A}}
+\def\t {\tilde}
+\def\a {\alpha}
+\def\K {{\bf K}}
+\def\N {{\bf N}}
+\def\V {{\cal V}}
+\def\s {{\sigma}}
+\def\S {{\Sigma}}
+\def\s {{\sigma}}
+\def\p{\partial}
+\def\vare{{\varepsilon}}
+\def\Q {{\bf Q}}
+\def\D {{\cal D}}
+\def\G {{\Gamma}}
+\def\C {{\bf C}}
+\def\M {{\cal M}}
+\def\Z {{\bf Z}}
+\def\U  {{\cal U}}
+\def\H {{\cal H}}
+\def\R  {{\bf R}}
+\def\S  {{\bf S}}
+\def\E  {{\bf E}}
+\def\l {\lambda}
+\def\ll {{\bf l}}
+\def\degree {{\bf {\rm degree}\,\,}}
+\def \finish {${\,\,\vrule height1mm depth2mm width 8pt}$}
+\def \m {\medskip}
+\def\p {\partial}
+\def\r {{\bf r}}
+\def\pt {{\bf p}}
+\def\v {{\bf v}}
+\def\n {{\bf n}}
+\def\t {{\bf t}}
+\def\b {{\bf b}}
+\def\c {{\bf c }}
+\def\e{{\bf e}}
+\def\ac {{\bf a}}
+\def \X   {{\bf X}}
+\def \Y   {{\bf Y}}
+\def \x   {{\bf x}}
+\def \y   {{\bf y}}
+\def \z   {{\bf z}}
+\def \G{{\cal G}}
+\def\w {{\omega}}
+\def \Tr  {{\rm Tr\,}}
+\def\V {{\cal V}}
+% I began this file in September  2018
+
+
+\centerline {\bf Quantum mechanics. Problems 1.}
+
+
+{\bf 1.}    Let $\cal H$ be unitary space (compex vector space with 
+Hermitian scalar product)
+
+
+   Show that
+    $\langle \x,\lambda \y\rangle=\bar\lambda\langle\x,\y\rangle$
+
+   
+\m
+
+
+{\bf 2.}   Consider the set of the functions
+                  $$
+      \varphi_n(x)=C_n e^{-nx^2}
+                  $$       
+
+ a) find  $C_n$  such that  $||\varphi_n||=1$ 
+                      
+ b) Show that the sequence $\{\varphi_n\}$ is Cauchy sequence
+  (we suppose that condition a) holds.)
+
+      
+
+ c)     Consider a  "function" $f$ such that
+                $$
+   f=\lim_{n\to \infty}\varphi_n
+                $$
+Does this function exist?
+  
+
+\m
+
+
+
+{\bf 3.}   Prove  CBS inequality, i.e. for every two vectors
+                 $$
+|\x|^2|\y|^2\geq \left|\langle\x, \y\rangle\right|^2\,,
+               $$
+             in the real and in the complex cases
+
+{\bf 4.}   
+Let $\cal H$ be the space of 
+complex valued functions on $\R$ such  for every $\Psi\in \cal H$,
+       $$
+\int_\R \Psi (x) \overline{ \Psi (x)}dx <\infty\,,\quad
+       $$ 
+Prove that this is a linear space, i.e. for every two functions
+$\Psi,\Phi\in H$ their linear combination $\lambda\Psi+\mu\Phi\in \cal H$.
+     
+
+\m
+
+{\bf 5.} Let $\cal H$ be unitary vector space.
+ Show that the function $d(\x,\y)=||\x-\y||$ defines the metric,
+i.e.  this function is non-negative, summetric ($d(\x,\y)=d(\y,\x)$);
+ $d(\x,\x)=0$ and
+                  $$
+       d(\y,\x)+d(\z,\y)\geq d(\z,\x)\,, \hbox {(triangle inequality)}\,.
+                  $$
+
+    
+
+\m
+
+
+
+{\bf 6.} Let $\{\varphi_n\}$ be the orthonormal system in $\cal H$.
+
+           Show that for two arbitrary $\Psi,\Phi$
+                $$
+\langle\Psi,\Phi\rangle=
+\sum_n\langle\Psi,\varphi_n\rangle
+\langle\varphi_n,\Phi\rangle\,.
+                $$
+This imples that 
+                $$
+\langle\Psi,\Phi\rangle=
+\sum_n\langle\Psi,\varphi_n\rangle
+\langle\varphi_n,\Phi\rangle
+    =
+\langle\Psi,\varphi_{n}\rangle
+\langle\varphi_{n},\Phi\rangle
+            =
+\sum_{n_1,n_2}
+\langle\Psi,\varphi_{n_1}\rangle
+\langle\varphi_{n_1},\varphi_{n_2}\rangle
+\langle\varphi_{n_2},\Phi\rangle
+                 =
+                $$
+                 $$
+\sum_{n_1,n_2,n_3}
+\langle\Psi,\varphi_{n_1}\rangle
+\langle\varphi_{n_1},\varphi_{n_2}\rangle
+\langle\varphi_{n_2},\varphi_{n_3}\rangle
+\langle\varphi_{n_3},\Phi\rangle
+                =
+                     $$
+                 $$
+\sum_{n_1,n_2,n_3,n_4}
+\langle\Psi,\varphi_{n_1}\rangle
+\langle\varphi_{n_1},\varphi_{n_2}\rangle
+\langle\varphi_{n_2},\varphi_{n_3}\rangle
+\langle\varphi_{n_3},\varphi_{n_4}\rangle
+\langle\varphi_{n_4},\Phi\rangle=\dots
+                     $$
+
+
+
+
+
+\bye

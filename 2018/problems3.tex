@@ -1,0 +1,261 @@
+\magnification=1200
+\baselineskip=14pt
+\def\vare {\varepsilon}
+\def\A {{\bf A}}
+\def\t {\tilde}
+\def\a {\alpha}
+\def\K {{\bf K}}
+\def\N {{\bf N}}
+\def\V {{\cal V}}
+\def\s {{\sigma}}
+\def\S {{\Sigma}}
+\def\s {{\sigma}}
+\def\p{\partial}
+\def\vare{{\varepsilon}}
+\def\Q {{\bf Q}}
+\def\D {{\cal D}}
+\def\G {{\Gamma}}
+\def\C {{\bf C}}
+\def\M {{\cal M}}
+\def\Z {{\bf Z}}
+\def\U  {{\cal U}}
+\def\H {{\cal H}}
+\def\R  {{\bf R}}
+\def\S  {{\bf S}}
+\def\E  {{\bf E}}
+\def\l {\lambda}
+\def\ll {{\bf l}}
+\def\degree {{\bf {\rm degree}\,\,}}
+\def \finish {${\,\,\vrule height1mm depth2mm width 8pt}$}
+\def \m {\medskip}
+\def\p {\partial}
+\def\r {{\bf r}}
+\def\pt {{\bf p}}
+\def\v {{\bf v}}
+\def\n {{\bf n}}
+\def\t {{\bf t}}
+\def\b {{\bf b}}
+\def\c {{\bf c }}
+\def\e{{\bf e}}
+\def\ac {{\bf a}}
+\def \X   {{\bf X}}
+\def \Y   {{\bf Y}}
+\def \x   {{\bf x}}
+\def \y   {{\bf y}}
+\def \z   {{\bf z}}
+\def \G{{\cal G}}
+\def\w {{\omega}}
+\def \Tr  {{\rm Tr\,}}
+\def\V {{\cal V}}
+% I began this file in September  2018
+
+
+\centerline {\bf Quantum mechanics. Problems 3.}
+
+
+{\it 
+          If  $\Psi \in\H$  is a state and $A$ is observable, then
+the average value $\overline A =\left(\overline A\right)_\Psi$
+of the observable (self-adjoint operator in $\cal H$)
+                $$
+      \left(\overline A\right)_\Psi=
+                    {
+            \langle\Psi,\hat A\Psi\rangle
+                \over
+       \langle\Psi,\Psi\rangle
+                 }
+                $$
+For example if $\H$  is realised as a space of funcions
+ in $\E^3$, i.e.  
+         $
+    \Psi=\Psi(x,y,z)$  is a function such that
+              $$
+ \int_{\E^3} \Psi^*(x,y,z)\Psi(x,y,z)dxdydz <\infty\,.
+               \eqno (1)
+    $$ 
+Then
+the averages of coordinate $x$ is equal to 
+                 $$
+   <x>=
+      \left(\overline x\right)_\Psi=
+                    {
+            \langle\Psi, x\Psi\rangle
+                \over
+       \langle\Psi,\Psi\rangle
+                 }
+           =
+                    {
+     \int_{-\infty}^\infty
+        dx 
+     \int_{-\infty}^\infty
+        dy 
+     \int_{-\infty}^\infty
+        dz
+      \left(
+         x\Psi^*(x,y,z)\Psi(x,y,z)
+      \right)
+           \over
+     \int_{-\infty}^\infty
+        dx 
+     \int_{-\infty}^\infty
+        dy 
+     \int_{-\infty}^\infty
+        dz
+      \left(
+         \Psi^*(x,y,z)\Psi(x,y,z)
+              \right)
+            }\,,
+        \eqno (2)
+                 $$
+and
+the averages of the momentum $p_y$ is equal to
+                 $$
+   <p_y>=
+      \overline
+         { 
+              \left(
+          \hat {p_y}
+              \right)
+         }_\Psi=
+                    {
+            \langle\Psi, p_y\Psi\rangle
+                \over
+       \langle\Psi,\Psi\rangle
+                 }
+           =
+                    {
+     \int_{-\infty}^\infty
+        dx 
+     \int_{-\infty}^\infty
+        dy 
+     \int_{-\infty}^\infty
+        dz
+      \left(
+         {\hbar\over i}
+    {\p \Psi^*(x,y,z)\over \p y}
+         \right)
+           \Psi(x,y,z)
+                 \over
+     \int_{-\infty}^\infty
+        dx 
+     \int_{-\infty}^\infty
+        dy 
+     \int_{-\infty}^\infty
+        dz
+      \left(
+         \Psi^*(x,y,z)\Psi(x,y,z)
+              \right)
+            }\,.
+            \eqno (3)
+                 $$
+
+
+}
+
+{\bf 1}.    
+Consider the state
+                  $$
+                 \Psi=
+        C 
+      e^{-
+          {
+        \left(
+    {\bf r}-{\bf r}_{_0}
+       \right)^2
+       \over 2a^2
+           }
+         }=
+      C e^{-
+           {
+        \left(
+    x-x_{_0}
+       \right)^2
+              +
+        \left(
+    y-y_{_0}
+       \right)^2
+        \left(
+    z-z_{_0}
+       \right)^2
+           \over
+            2a^2}
+         }\,,
+              $$
+a) calculate the constant $C$ such that $\langle\Psi,\Psi\rangle=1$
+
+
+b) Calculate averages of coordinates $x,y,z$
+
+c) Calculate averages of momenta $p_x,p_y,p_z$ for this state. 
+
+\m
+
+{\bf 2}.
+Let  $\Psi$ be an arbitrary state which is described by the real
+function in the space $\E^3$:  
+        $$
+ \Psi^*=\Psi
+        $$
+Show that averages of momenta vanish for this state.
+
+Explain why the condition (1) is important.
+
+\m
+
+
+{\bf 3}  Consider 
+       $\Psi=e^{-x^2-y^2}z$.
+Why you cannot  you use formula (3) to evaluate  the average of the 
+momentum $p_z$?
+
+\m
+
+
+{\bf 4}.
+For the state
+        $$
+\Psi(x,y,z)=C e^{-
+           {
+        \left(
+    \r-\r_{_0}
+       \right)^2
+           \over
+            2a^2}
+         +{i{\bf p}_{_0}\cdot \r\over \hbar}}
+= C e^{-
+           {
+        \left(
+    x-x_{_0}
+       \right)^2
+              +
+        \left(
+    y-y_{_0}
+       \right)^2
+        \left(
+    z-z_{_0}
+       \right)^2
+           \over
+            2a^2}
+         +{
+         ip_{_{0x}}x+
+         ip_{_{0y}}x+
+         ip_{_{0z}}z
+          \over \hbar}}
+        $$
+calculate
+the averages,  
+$\overline x$,
+$\overline y$, 
+$ \overline z$,
+$ \overline p_x$,
+$ \overline p_y$,
+$ \overline p_z$,
+and the dispersions 
+$\overline {\Delta x^2}$
+$\overline {\Delta y^2}$
+$\overline {\Delta z^2}$
+$\overline {\Delta p_x^2}$
+$\overline {\Delta p_y^2}$
+$\overline {\Delta p_z^2}$.
+
+\bye
